@@ -75,15 +75,15 @@ ____________________________________
 
 ║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/GoPZhE9zc6Y3ul0RnD4HXw_
 
-║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaWGyGVJZg48vgpHBa31_
+║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L_
 
 ║ 
 ╚════════════════════╝ 
- *𝙈𝘼𝘾 𝙈𝘿*
+ *𝗡𝗔𝗥𝗨𝗧𝗢-𝗠𝗗*
 ___________________________________
 
 Don't Forget To Give Star To My Repo`
- await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Bryan_Tech.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
         await delay(100);
