@@ -28,13 +28,13 @@ const {
 } = require("node:fs/promises")
 router.get('/', async (req, res) => {
 	const id = makeid();
-	async function SIGMA_MD_QR_CODE() {
+	async function NARUTO_MD_QR_CODE() {
 		const {
 			state,
 			saveCreds
 		} = await useMultiFileAuthState('./temp/' + id)
 		try {
-			let Qr_Code_By_Maher_Zubair = Maher_Zubair({
+			let Qr_Code_By_Bryan_Tech = Bryan_Tech({
 				auth: state,
 				printQRInTerminal: false,
 				logger: pino({
@@ -56,39 +56,37 @@ router.get('/', async (req, res) => {
 					let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
 					await delay(800);
 				   let b64data = Buffer.from(data).toString('base64');
-				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
+				   let session = await Qr_Code_By_Bryan_Tech.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
-				   let SIGMA_MD_TEXT = `
-*𝙈𝘼𝘿𝘼𝙍𝘼 𝙈𝘿 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘾𝙃*
-*𝙈𝘼𝘿𝘼𝙍𝘼 𝙏𝙀𝘾𝙃*
+				   let NARUTO_MD_TEXT = `
+*𝗡𝗔𝗥𝗨𝗧𝗢 𝙈𝘿 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘾𝙃*
+*𝗕𝗥𝗬𝗔𝗡 𝙏𝙀𝘾𝙃*
 *𝙇𝙀𝙂𝙄𝙏 𝘽𝙊𝙏*
 ____________________________________
 ╔════◇
 ║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』
 
-║ ❒ 𝘽𝙍𝙔𝘼𝙉𝙏 𝙏𝙀𝘾𝙃: _https://wa.me/94784192378_
+║ ❒ 𝘽𝙍𝙔𝘼𝙉 𝙏𝙀𝘾𝙃: _https://wa.me/233263176982_
 
-║ ❒ 𝘽𝙍𝙔𝘼𝙉𝙏𝙓𝙏𝙀𝘾𝙃: _https://wa.me/233530729233_
+║ ❒ 𝘽𝙍𝙔𝘼𝙉 𝙏𝙀𝘾𝙃: _https://wa.me/233263176982_
 
 ╚════════════════════❒
 ╔═════◇
 ║ 『••• OWNER INFO •••』
-║ ❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _https://www.youtube.com/@BryantXtech_
+║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/233263176982
 
-║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/23353729233
-
-║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/DOko0OMbzD3DPZmIADnT95_
+║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/DVpRj3FVHFQDYxploAvjI5_
 
 ║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L_
 
 ║ 
 ╚════════════════════╝ 
- *𝙈𝘼𝘿𝘼𝙍𝘼 𝙈𝘿*
+ *𝗡𝗔𝗥𝗨𝗧𝗢 𝙈𝘿*
 ___________________________________
 
 Don't Forget To Give Star To My Repo`
 					
-	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
+	 await Qr_Code_By_Bryan_Tech.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
 
 
