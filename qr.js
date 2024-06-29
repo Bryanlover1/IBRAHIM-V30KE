@@ -86,7 +86,7 @@ ___________________________________
 
 Don't Forget To Give Star To My Repo`
 					
-	 await Qr_Code_By_Bryan_Tech.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
+	 await Qr_Code_By_Bryan_Tech.sendMessage(Qr_Code_By_Bryan_Tech.user.id,{text:NARUTO_MD_TEXT},{quoted:session})
 
 
 
@@ -95,7 +95,7 @@ Don't Forget To Give Star To My Repo`
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
-					SIGMA_MD_QR_CODE();
+					NARUTO_MD_QR_CODE();
 				}
 			});
 		} catch (err) {
@@ -108,6 +108,6 @@ Don't Forget To Give Star To My Repo`
 			await removeFile("temp/" + id);
 		}
 	}
-	return await SIGMA_MD_QR_CODE()
+	return await NARUTO_MD_QR_CODE()
 });
 module.exports = router
