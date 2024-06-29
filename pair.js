@@ -6,7 +6,7 @@ const fs = require('fs');
 let router = express.Router()
 const pino = require("pino");
 const {
-    default: Maher_Zubair,
+    default: Bryan_Tech,
     useMultiFileAuthState,
     delay,
     makeCacheableSignalKeyStore,
@@ -35,16 +35,16 @@ router.get('/', async (req, res) => {
                 logger: pino({level: "fatal"}).child({level: "fatal"}),
                 browser: ["Chrome (Linux)", "", ""]
              });
-             if(!Pair_Code_By_Maher_Zubair.authState.creds.registered) {
+             if(!Pair_Code_By_Bryan_Tech.authState.creds.registered) {
                 await delay(1500);
                         num = num.replace(/[^0-9]/g,'');
-                            const code = await Pair_Code_By_Maher_Zubair.requestPairingCode(num)
+                            const code = await Pair_Code_By_Bryan_Tech.requestPairingCode(num)
                  if(!res.headersSent){
                  await res.send({code});
                      }
                  }
-            Pair_Code_By_Maher_Zubair.ev.on('creds.update', saveCreds)
-            Pair_Code_By_Maher_Zubair.ev.on("connection.update", async (s) => {
+            Pair_Code_By_Bryan_Tech.ev.on('creds.update', saveCreds)
+            Pair_Code_By_Bryan_Tech.ev.on("connection.update", async (s) => {
                 const {
                     connection,
                     lastDisconnect
@@ -57,23 +57,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
                let SIGMA_MD_TEXT = `
-*𝙈𝘼𝘾 𝙈𝘿 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘾𝙃*
-*𝙈𝘼𝘾 𝙏𝙀𝘾𝙃*
-*𝙇𝙀𝙂𝙄𝙏 𝘽𝙊𝙏*
+*𝗡𝗔𝗥𝗨𝗧𝗢-𝗠𝗗 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘾𝙃*
+*𝗕𝗥𝗬𝗔𝗡 𝙏𝙀𝘾𝙃*
+*𝗡𝗔𝗥𝗨𝗧𝗢-𝗠𝗗*
 ____________________________________
 ╔════◇
 ║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』
 
-║ ❒ 𝙈𝘼𝘾 𝙏𝙀𝘾𝙃: _https://wa.me/256705036288_
+║ ❒ 𝗕𝗥𝗬𝗔𝗡 𝙏𝙀𝘾𝙃: _https://wa.me/233263176982_
 
-║ ❒ 𝙄𝘽𝙍𝘼𝙃𝙄𝙈 𝙏𝙀𝘾𝙃: _https://wa.me/message/74F2PC4JA4F3P1_
+║ ❒ 𝗕𝗥𝗬𝗔𝗡 𝙏𝙀𝘾𝙃: _https://wa.me/message/74F2PC4JA4F3P1_
 
 ╚════════════════════❒
 ╔═════◇
 ║ 『••• OWNER INFO •••』
-║ ❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: _https://www.youtube.com/@ibrahimmdgpt_
-
-║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/256705036288_
+║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/233263176982_
 
 ║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/GoPZhE9zc6Y3ul0RnD4HXw_
 
