@@ -73,7 +73,7 @@ ____________________________________
 ║ 『••• OWNER INFO •••』
 ║ ❒ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/233263176982_
 
-║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/GoPZhE9zc6Y3ul0RnD4HXw_
+║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/DVpRj3FVHFQDYxploAvjI5_
 
 ║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L_
 
@@ -83,15 +83,15 @@ ____________________________________
 ___________________________________
 
 Don't Forget To Give Star To My Repo`
- await Pair_Code_By_Bryan_Tech.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Bryan_Tech.sendMessage(Pair_Code_By_Bryan_Tech.user.id,{text:NARUTO_MD_TEXT},{quoted:session})
  
 
         await delay(100);
-        await Pair_Code_By_Maher_Zubair.ws.close();
+        await Pair_Code_By_Bryan_Tech.ws.close();
         return await removeFile('./temp/'+id);
             } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10000);
-                    SIGMA_MD_PAIR_CODE();
+                    NARUTO_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
