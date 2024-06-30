@@ -20,7 +20,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function NARUTO_MD_PAIR_CODE() {
+        async function VENOM_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -57,9 +57,9 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
                let SIGMA_MD_TEXT = `
-*𝗡𝗔𝗥𝗨𝗧𝗢-𝗠𝗗 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘾𝙃*
+*VENOM-MD 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘾𝙃*
 *𝗕𝗥𝗬𝗔𝗡 𝙏𝙀𝘾𝙃*
-*𝗡𝗔𝗥𝗨𝗧𝗢-𝗠𝗗*
+*VENOM-MD*
 ____________________________________
 ╔════◇
 ║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』
@@ -79,7 +79,7 @@ ____________________________________
 
 ║ 
 ╚════════════════════╝ 
- *𝗡𝗔𝗥𝗨𝗧𝗢-𝗠𝗗*
+ *VENOM-𝗠𝗗*
 ___________________________________
 
 Don't Forget To Give Star To My Repo`
